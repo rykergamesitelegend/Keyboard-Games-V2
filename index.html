@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keyboard Games V2</title>
+    <meta
+      name="description"
+      content="Keyboard Games V2 — community hub with live chat, staff team, and a games section."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-glow glow-1"></div>
+    <div class="bg-glow glow-2"></div>
+
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand-wrap">
+          <div class="brand-mark">KG</div>
+          <div>
+            <p class="eyebrow">community hub</p>
+            <h1>Keyboard Games V2</h1>
+          </div>
+        </div>
+
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#games">Games</a>
+          <a href="#chat">Global Chat</a>
+          <a href="#staff">Staff Team</a>
+        </nav>
+
+        <a href="#chat" class="button primary">Join Chat</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow accent">Keyboard Games V2</p>
+            <h2>A gaming community hub.</h2>
+            <p class="subtext">
+              Built for a modern community experience with chat, staff updates, and a dedicated games section.
+            </p>
+            <div class="hero-actions">
+              <a href="#games" class="button primary">View Games</a>
+              <a href="#chat" class="button secondary">Open Chat</a>
+            </div>
+            <ul class="stats">
+              <li><strong>Live</strong><span>Global chat</span></li>
+              <li><strong>Active</strong><span>Community updates</span></li>
+              <li><strong>Trusted</strong><span>Staff support</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-card">
+            <div class="card-badge">Status</div>
+            <div class="status-panel">
+              <div class="pulse-dot"></div>
+              <div>
+                <p class="mini-label">Community status</p>
+                <h3>Online</h3>
+              </div>
+            </div>
+
+            <div class="feature-grid">
+              <div>
+                <span>Focus</span>
+                <strong>Chat</strong>
+              </div>
+              <div>
+                <span>Support</span>
+                <strong>Staff</strong>
+              </div>
+              <div>
+                <span>Style</span>
+                <strong>Modern</strong>
+              </div>
+              <div>
+                <span>Vibe</span>
+                <strong>Casual</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="games" class="games-section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow accent">Games</p>
+            <h2>Game section</h2>
+          </div>
+
+          <div class="games-placeholder">
+            <p>No games added yet.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="chat" class="chat-section">
+        <div class="container chat-shell">
+          <div class="section-heading chat-heading">
+            <p class="eyebrow accent">Community</p>
+            <h2>Global chat</h2>
+          </div>
+
+          <div class="chat-window" aria-live="polite">
+            <div class="message message-self">
+              <span class="user">You</span>
+              <p>Anyone hanging out in the hub today?</p>
+            </div>
+            <div class="message">
+              <span class="user">Milo</span>
+              <p>Yep, the chat is active and the vibes are good.</p>
+            </div>
+            <div class="message">
+              <span class="user">Zoe</span>
+              <p>Love the new cleaner layout.</p>
+            </div>
+            <div class="message">
+              <span class="user">Kai</span>
+              <p>Staff is online and ready to help.</p>
+            </div>
+          </div>
+
+          <form id="chat-form" class="chat-form">
+            <input
+              id="chat-input"
+              type="text"
+              placeholder="Type your message..."
+              aria-label="Type your message"
+              maxlength="160"
+            />
+            <button type="submit" class="button primary">Send</button>
+          </form>
+        </div>
+      </section>
+
+      <section id="staff" class="staff-section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow accent">Staff team</p>
+            <h2>Support and community crew</h2>
+          </div>
+
+          <div class="staff-grid">
+            <article class="staff-card">
+              <div class="avatar avatar-one">AK</div>
+              <h3>Ayla K.</h3>
+              <p class="role">Owner</p>
+              <p>Runs the site and keeps the community moving forward.</p>
+            </article>
+
+            <article class="staff-card">
+              <div class="avatar avatar-two">MJ</div>
+              <h3>Mason J.</h3>
+              <p class="role">Moderator</p>
+              <p>Helps maintain a friendly and safe space for everyone.</p>
+            </article>
+
+            <article class="staff-card">
+              <div class="avatar avatar-three">RN</div>
+              <h3>Rina N.</h3>
+              <p class="role">Community Lead</p>
+              <p>Coordinates community events and keeps members engaged.</p>
+            </article>
+
+            <article class="staff-card">
+              <div class="avatar avatar-four">TL</div>
+              <h3>Toby L.</h3>
+              <p class="role">Support</p>
+              <p>Handles updates and team support for the overall experience.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 Keyboard Games V2</p>
+        <p>Built for the community.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
